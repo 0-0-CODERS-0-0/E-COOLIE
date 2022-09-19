@@ -21,7 +21,6 @@ Created: 07/04/2018
 2.  Elements
 3.  Menu Style 
 4.  Home Page Style
-5.  Blog Styles
 6.  Contact Page Style
 7.  Footer Style
 
@@ -98,7 +97,8 @@ body {
   position: relative;
 }
 
-ol, ul {
+ol,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -123,7 +123,9 @@ iframe {
   border: 0;
 }
 
-a, a:focus, a:hover {
+a,
+a:focus,
+a:hover {
   text-decoration: none;
   outline: 0;
 }
@@ -147,7 +149,11 @@ a, a:focus, a:hover {
  *  Typography
  *
  **/
-.btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
+.btn i,
+.btn-large i,
+.btn-floating i,
+.btn-large i,
+.btn-flat i {
   font-size: 1em;
   line-height: inherit;
 }
@@ -156,8 +162,12 @@ a, a:focus, a:hover {
   background: #f9f9ff;
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Poppins", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
@@ -166,8 +176,12 @@ h4, h5, h6 {
   font-weight: 600;
 }
 
-.h1, .h2, .h3,
-.h4, .h5, .h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   margin-bottom: 0;
   margin-top: 0;
   font-family: "Poppins", sans-serif;
@@ -175,32 +189,39 @@ h4, h5, h6 {
   color: #222222;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-size: 36px;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 30px;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 24px;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 18px;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 16px;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 14px;
   color: #222222;
 }
 
-td, th {
+td,
+th {
   border-radius: 0px;
 }
 
@@ -213,7 +234,8 @@ td, th {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.clear::before, .clear::after {
+.clear::before,
+.clear::after {
   content: " ";
   display: table;
 }
@@ -917,7 +939,11 @@ td, th {
   }
 }
 
-b, sup, sub, u, del {
+b,
+sup,
+sub,
+u,
+del {
   color: #f9d700;
 }
 
@@ -945,11 +971,21 @@ h6 {
   font-size: 14px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.5em;
 }
 
-.typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
   color: #777777;
 }
 
@@ -976,7 +1012,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   line-height: 40px;
   padding: 0 30px;
-  font-size: .8em;
+  font-size: 0.8em;
   text-align: center;
   text-decoration: none;
   font-weight: 500;
@@ -1244,7 +1280,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage {
   color: #222222;
   line-height: 40px;
   text-transform: uppercase;
@@ -1257,7 +1296,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-.progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+.progress-table .table-row .serial,
+.progress-table .table-row .country,
+.progress-table .table-row .visit,
+.progress-table .table-row .percentage {
   display: flex;
   align-items: center;
 }
@@ -1322,7 +1364,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .single-gallery-image:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .list-style {
@@ -1710,7 +1752,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-checkbox input:checked + label {
-  background: url(../img/elements/primary-check.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1748,7 +1791,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-checkbox input:checked + label {
-  background: url(../img/elements/success-check.png) no-repeat center center/cover;
+  background: url(../img/elements/success-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1791,7 +1835,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-checkbox input:checked + label {
-  background: url(../img/elements/disabled-check.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-check.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1829,7 +1874,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-radio input:checked + label {
-  background: url(../img/elements/primary-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/primary-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1867,7 +1913,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .confirm-radio input:checked + label {
-  background: url(../img/elements/success-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/success-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -1910,7 +1957,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .disabled-radio input:checked + label {
-  background: url(../img/elements/disabled-radio.png) no-repeat center center/cover;
+  background: url(../img/elements/disabled-radio.png) no-repeat center
+    center/cover;
   border: none;
 }
 
@@ -2031,15 +2079,6 @@ h1, h2, h3, h4, h5, h6 {
 /* =================================== */
 /*  Menu Styles
 /* =================================== */
-.header-top {
-  background: url("../img/menu-top.jpg");
-  background-size: cover;
-  height: 20px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
 
 @media (max-width: 991px) {
   .header-top {
@@ -2473,12 +2512,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- Start Banner Area ------------*/
 .banner-area {
-  background: url(../img/header-bg.jpg) center;
+  background: url(../img/Vadodaraimage.jpeg) center;
   background-size: cover;
 }
 
 .banner-area .overlay-bg {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 767px) {
@@ -2575,7 +2614,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .header-right .default-select .nice-select {
   width: 100%;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   background-color: #000000;
 }
 
@@ -2588,8 +2627,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .header-right .input-group-text {
   margin-right: 0;
-  border-top-right-radius: .25rem !important;
-  border-bottom-right-radius: .25rem !important;
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
   background: #fff;
   border-color: #fff;
 }
@@ -2609,7 +2648,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .header-right .dates {
-  padding: 0.530rem 0.75rem;
+  padding: 0.53rem 0.75rem;
   border: none;
 }
 
@@ -2649,7 +2688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .nice-select::after {
   border-bottom: 1px solid #999;
   border-right: 1px solid #999;
-  content: '';
+  content: "";
   display: block;
   height: 8px;
   margin-top: -6px;
@@ -2741,7 +2780,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .services-area .single-service:hover {
   background-color: #000000;
-  pointer: cursor;
+  cursor: pointer;
 }
 
 .services-area .single-service:hover h4,
@@ -2756,35 +2795,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- End services Area -------------*/
-/*-------- Start image-gallery Area -------------*/
-.image-gallery-area {
-  background-color: #f9f9ff;
-}
-
-.image-gallery-area .single-gallery:nth-child(2) {
-  margin-top: 80px;
-}
-
-@media (max-width: 1024px) {
-  .image-gallery-area .single-gallery:nth-child(2) {
-    margin-top: 0px;
-  }
-}
-
-.image-gallery-area .single-gallery img {
-  width: 100%;
-  margin-bottom: 30px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.image-gallery-area .single-gallery a:hover img {
-  opacity: .6;
-}
-
-/*-------- End image-gallery Area -------------*/
 /*-------- Start review Area -------------*/
 .reviews-area .single-review {
   text-align: center;
@@ -2853,78 +2863,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*-------- end home-calltoaction Area -------------*/
-/*-------- Start latest-blog Area -------------*/
-.single-latest-blog .thumb {
-  overflow: hidden;
-}
-
-.single-latest-blog .thumb img {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  width: 100%;
-}
-
-.single-latest-blog .tags {
-  margin: 20px 0px;
-}
-
-.single-latest-blog .tags li {
-  display: inline-block;
-  border: 1px solid #eee;
-  padding: 4px 15px;
-  font-size: 12px;
-  font-weight: 400;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.single-latest-blog .tags li a {
-  color: #222;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.single-latest-blog .tags li:hover {
-  background-color: #f9d700;
-  color: #222;
-  border-color: transparent;
-}
-
-.single-latest-blog h4 {
-  margin-bottom: 20px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.single-latest-blog h4:hover {
-  color: #f9d700;
-}
-
-.single-latest-blog .date {
-  color: #222;
-}
-
-.single-latest-blog:hover .thumb img {
-  -webkit-filter: brightness(50%);
-  filter: brightness(50%);
-  transform: scale(1.1);
-}
-
-@media (max-width: 991px) {
-  .single-latest-blog {
-    margin-bottom: 40px;
-  }
-}
-
-/*-------- end latest-blog Area -------------*/
 /*-------- Start Common Page Style For  -------------*/
 .link-nav {
   margin-top: 10px;
@@ -2965,56 +2903,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /*-------- End Common Page Style For  -------------*/
 /* =================================== */
-/*  Blog Styles
-/* =================================== */
-/*============ Start Blog Home Styles  =============*/
-.blog-home-banner {
-  background: url(../img/blog/blog-home-banner.jpg) bottom;
-  background-size: cover;
-  padding: 130px 0px;
-}
-
-.blog-home-banner .primary-btn {
-  border-radius: 0px;
-  background: #fff;
-  color: #222;
-  font-weight: 600;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.blog-home-banner .primary-btn:hover {
-  background: transparent;
-  border-color: #fff;
-  color: #fff;
-}
-
-.blog-home-banner .overlay-bg {
-  background: rgba(0, 0, 0, 0.5);
-}
-
-.blog-page {
-  background: #f9f9ff;
-}
-
-.blog-header-content h1 {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (max-width: 414px) {
-  .blog-header-content h1 {
-    font-size: 30px;
-  }
-}
-
-.blog-header-content p {
-  margin: 20px 0px;
-}
 
 .top-category-widget-area {
   background-color: #f9f9ff;
@@ -3252,7 +3140,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0px;
 }
 
-.widget-wrap .search-widget form.search-form input[type=text] {
+.widget-wrap .search-widget form.search-form input[type="text"] {
   color: #222;
   padding: 10px 22px;
   font-size: 14px;
@@ -3615,7 +3503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-post-area .navigation-area .nav-left:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
@@ -3654,7 +3542,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-post-area .navigation-area .nav-right:hover .thumb img {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media (max-width: 991px) {
