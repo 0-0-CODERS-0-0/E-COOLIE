@@ -34,11 +34,13 @@ var qr = document.querySelector("#qr");
 var form1 = document.querySelector("#form1");
 var result = document.querySelector("#result");
 var paynow = document.querySelector("#paynow");
+var track = document.querySelector("#track");
 
 text.style.display = "none";
 result.style.display = "none";
 qr.style.display = "none";
 paynow.style.display = "none";
+track.style.display = "none";
 document.getElementById("BOOK").onclick = function () {
   text.style.display = "inline";
   text1.style.display = "none";
@@ -47,7 +49,9 @@ document.getElementById("BOOK").onclick = function () {
   result.style.display = "inline";
   paynow.style.display = "inline";
 };
-
+document.getElementById("paynow").onclick = function () {
+  track.style.display = "inline";
+};
 /* var D = document.getElementById("default-select2").value;
 var p1 = document.getElementById("default-select1").value;
 var bw = document.getElementById("default-select").value;

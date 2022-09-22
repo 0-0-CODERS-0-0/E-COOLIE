@@ -1027,6 +1027,19 @@ h6 {
   color: #fff;
   background-color: #000000;
 }
+.aa2{
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+   height:45px;
+   margin:10px;
+   margin-left: -1px;
+   align-items: center;
+  font-size: 14px;
+  color: #fff;
+  background-color: green;
+}
+
 .typewriter {
   color: #fff;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
