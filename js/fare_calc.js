@@ -52,31 +52,5 @@ document.getElementById("BOOK").onclick = function () {
 document.getElementById("paynow").onclick = function () {
   track.style.display = "inline";
 };
-/* var D = document.getElementById("default-select2").value;
-var p1 = document.getElementById("default-select1").value;
-var bw = document.getElementById("default-select").value;
-console.log(D);
-console.log(p1);
-console.log(bw);
-var totalprice = 10;
-var bgprice = 10;
-if (bw <= 10) bgprice = 10;
-else if (bw <= 20 && bw > 11) bgprice = 20;
-else {
-  bgprice = 30;
-}
-if (p1 == 1 && D == 1) {
-  totalprice += bgprice;
-} else if (p1 == 6 && D == 6) {
-  totalprice += bgprice;
-} else {
-  var diff = p1 - D;
-  if (diff < 0) diff = -1 * diff;
-  totalprice = 15 * diff + bgprice;
-}
-function fare_display() {
-  var x = totalprice;
-  document.getElementById("BOOK").innerText = x;
-}
-console.log(totalprice);
- */
+
+
