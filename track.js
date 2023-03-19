@@ -24,7 +24,4 @@ pass2.style.display="none";
 document.getElementById("result").onclick=function(){
     var platform=document.getElementById("pt1").value;
     trackcoolie(platform);
-    
-    
-  
 };
